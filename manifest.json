@@ -1,0 +1,21 @@
+{
+  "name": "RoastMyOpenTabs",
+  "version": "1.0.0",
+  "description": "Save your tabs for later",
+  "manifest_version": 2,
+  "author": "sidharthPunathil",
+  "icons": { 
+    "16": "assets/images/icon16.png",
+    "48": "assets/images/icon48.png",
+    "128": "assets/images/icon128.png"
+ },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": ["tabs", "history", "bookmarks"],
+  "browser_action": {
+    "default_title": "RoastMyOpenTabs",
+    "default_popup": "popup.html"
+  }
+}
